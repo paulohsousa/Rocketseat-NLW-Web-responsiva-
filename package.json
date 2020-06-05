@@ -1,0 +1,27 @@
+{
+  "name": "nlw",
+  "version": "1.0.0",
+  "description": "Consiste em um novo nível de programação,aprendendo e aplicando conceitos modernos para webpages atuais,com responsividade e interação com javascrit.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulohsousa/Rocketseat-NLW-Web-responsiva-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulohsousa/Rocketseat-NLW-Web-responsiva-/issues"
+  },
+  "homepage": "https://github.com/paulohsousa/Rocketseat-NLW-Web-responsiva-#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
