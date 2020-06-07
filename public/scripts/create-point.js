@@ -12,7 +12,7 @@ popularUfs()
 
 function getCities(event) {
     const citySelect = document.querySelector("select[name=city]")
-    const stateInput = document.querySelector("select[name=state]")
+    const stateInput = document.querySelector("input[name=state]")
     
     const ufValue = event.target.value
 
@@ -59,7 +59,7 @@ document
 
         const itemId = itemLi.dataset.id
 
-
+        
         //verificar itens selecionados se sim,pegar os itens selecionados
         const alreadySelected = selelectedItens.findIndex(item => {
             const itemFound = item == itemId //retornará true or false

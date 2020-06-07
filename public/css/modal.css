@@ -1,7 +1,7 @@
 #modal {
     background-color: #0E0A14EF;
     height: 100vh;
-    width: 100vh;
+    width: 100%;
 
     position: fixed;
     top: 0;
@@ -82,4 +82,17 @@
 
 #modal form button:hover {
     background-color: #2fb852;
+}
+
+/* Página para modal point-created*/
+#modal.point .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#modal.point h1 {
+    color: white;
+
+    margin-top: 32px;
 }
